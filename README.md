@@ -156,7 +156,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/yourusername/AzureDevOpsProject.git'
+                git 'https://github.com/VaibhavBhawsar/AzureDevOpsProject.git'
             }
         }
         stage('Build Docker Image') {
@@ -185,7 +185,7 @@ pipeline {
 ### Login to Azure VM & Clone Repo
 ```sh
 ssh azureuser@your-vm-ip
-git clone https://github.com/yourusername/AzureDevOpsProject.git
+git clone https://github.com/VaibhavBhawsar/AzureDevOpsProject.git
 cd AzureDevOpsProject
 ```
 ### Run Terraform & Kubernetes
