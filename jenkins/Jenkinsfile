@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git 'https://github.com/yourusername/AzureDevOpsProject.git'
+                git 'https://github.com/VaibhavBhawsar/AzureDevOpsProject.git'
             }
         }
         stage('Build Docker Image') {
